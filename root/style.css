@@ -1,0 +1,129 @@
+html {
+	zoom: 160%;
+}
+
+body {
+	font-family: sans-serif;
+	color: darkslategrey;
+}
+
+div.horizontalmid {
+	position: absolute;
+	left: 30%;
+	width: 40%;
+}
+
+@media (max-width: 1000px) {
+        div.horizontalmid {
+                position: absolute;
+                left: 0%;
+                width: 100%;
+                font-size: 0.9em;
+        }
+}
+
+div.centeralign {
+	text-align: center;
+}
+
+.teal {
+	color: teal;
+}
+
+.grey {
+	color: darkslategrey;
+}
+
+.orange {
+	color: orange;
+}
+
+.blue {
+	color: skyblue;
+}
+
+.green {
+	color: green;
+}
+
+fieldset.orderby {
+	border: 2px solid darkslategrey;
+	border-radius: 20px;
+	padding: 15px;
+	margin: 20px;
+}
+
+legend.orderbytitle span {
+	font-size: 1.2em;
+}
+
+a.unselected {
+	text-decoration: none;
+	color: darkslategrey;
+	background-color: white;
+	border: 2px solid darkslategrey;
+	border-radius: 5px;
+	padding: 2px;
+	margin: 10px;
+}
+
+a.selected, a.unselected:hover {
+	text-decoration: none;
+	color: white;
+	background-color: teal;
+	border: 2px solid teal;
+	border-radius: 5px;
+	padding: 2px;
+	margin: 10px;
+}
+
+hr {
+	border: 1px solid darkslategrey;
+	margin: 20px;
+}
+
+
+
+fieldset.jobcard {
+	border: 2px solid darkslategrey;
+	border-radius: 20px;
+	padding: 10px;
+	margin: 20px;
+}
+
+legend.jobtitle a {
+	color: teal;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.EASY {
+	color: green;
+}
+
+.MID {
+	color: orange;
+}
+
+.HARD {
+	color: red;
+}
+
+a.moreinfo {
+	color: teal;
+	font-weight: bold;
+}
+
+
+
+#faq {
+	margin: 20px;
+        text-decoration: underline;
+        text-decoration-color: teal;
+        text-decoration-thickness: 2px;
+}
+
+.qa>h3,p{
+	margin: 5px;
+	margin-left: 20px;
+}

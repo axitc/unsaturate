@@ -1,0 +1,57 @@
+html {
+	zoom: 160%;
+}
+
+body {
+	font-family: sans-serif;
+	color: darkslategrey;
+}
+
+div.horizontalmid {
+	position: absolute;
+	left: 30%;
+	width: 40%;
+}
+
+@media (max-width: 768px) {
+        div.horizontalmid {
+                position: absolute;
+                left: 0%;
+                width: 100%;
+                font-size: 0.9em;
+        }
+}
+
+h2.jobname {
+	margin: 20px;
+	text-decoration: underline;
+	text-decoration-color: teal;
+	text-decoration-thickness: 3px;
+}
+
+p {
+	margin: 20px;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+hr {
+	border: 1px solid darkslategrey;
+	margin: 20px;
+}
+
+.EASY {
+	color: green;
+}
+
+.MID {
+	color: orange;
+}
+
+.HARD {
+	color: red;
+}
