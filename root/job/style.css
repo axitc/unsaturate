@@ -7,6 +7,15 @@ body {
 	color: darkslategrey;
 }
 
+a {
+        margin: 20px;
+        color: teal;
+	font-weight: bold;
+        text-decoration: underline;
+        text-decoration-color: teal;
+        text-decoration-thickness: 2px;
+}
+
 div.horizontalmid {
 	position: absolute;
 	left: 30%;
