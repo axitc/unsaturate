@@ -15,7 +15,6 @@ div.horizontalmid {
 	position: absolute;
 	left: 30%;
 	width: 40%;
-	background-color: white;
 }
 
 @media (max-width: 1000px) {
